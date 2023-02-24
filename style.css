@@ -65,84 +65,32 @@ nav li {
   border-radius: 5px;
 }
 
-.image__hero__section {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-}
-
-.image__bg__hero__section {
-  width: 100%;
-  height: 70%;
-  background-color: #0d28a6;
-  position: absolute;
-  z-index: -9999;
-  border-top-left-radius: 50%;
-  /* margin-top: -250px; */
-  top: 122px;
-}
-
 main {
   padding: 50px;
 }
 
 #our__service {
-  margin-bottom: 40px;
+  margin-bottom: 70px;
+  margin: 0 auto;
 }
 
 .content__our__service {
   margin-top: 40px;
   display: flex;
+  justify-content: space-evenly;
 }
 
-.image__our__service {
-  position: relative;
-}
-
-.circle {
-  background-color: #0d28a6;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  margin-left: 120px;
-}
-
-.circle img {
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-}
-
-.first__circle {
-  width: 100px;
-  height: 100px;
-  background-color: #92d094;
-  border-radius: 50%;
-  margin-left: 50px;
-  margin-top: 40px;
-}
-
-.second__circle {
-  width: 20px;
-  height: 20px;
-  background-color: #fa2c5a;
-  border-radius: 50%;
-  position: absolute;
-  right: 250px;
-  top: 40px;
-}
-
-.third__circle {
-  width: 50px;
-  height: 50px;
-  background-color: #f9cc00;
-  border-radius: 50%;
-  margin-left: 80px;
-}
-
-.image__our__service {
+.img__service {
   flex: 2;
+  padding: 30px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
+
+.img__service img {
+  height: 350px;
+}
+
 .content__our__service aside {
   flex: 2;
 }
@@ -156,6 +104,7 @@ aside h1 {
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .card__why__us {
@@ -348,27 +297,16 @@ footer {
     display: block;
   }
 
-  .circle {
+  .img__service {
     margin: 0 auto;
+    padding: 0px;
+    margin-bottom: 30px;
+    text-align: center;
   }
 
-  .first__circle {
-    margin: 0;
+  .img__service img {
+    height: 300px;
   }
-
-  .second__circle {
-    right: 50px;
-    top: 80px;
-  }
-
-  .third__circle {
-    margin-left: 50px;
-  }
-
-  .image__our__service {
-    margin-bottom: 40px;
-  }
-
   aside {
     padding: 0;
   }
