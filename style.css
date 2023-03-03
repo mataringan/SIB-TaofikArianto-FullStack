@@ -26,7 +26,8 @@ header {
   justify-content: space-between;
   align-items: center;
   /* margin-top: 10px; */
-  padding: 20px 50px;
+  /* padding: 20px 50px; */
+  padding-left: 20px;
 }
 
 .logo {
@@ -99,6 +100,7 @@ header {
   display: flex;
   background-color: #f1f3ff;
   width: 100%;
+  padding-left: 10px;
 }
 
 .content__hero__section {
@@ -374,6 +376,18 @@ footer {
     text-align: left;
   }
 
+  #why__us {
+    margin-top: 20px;
+  }
+
+  .content__why__us {
+    text-align: center;
+  }
+
+  .content__why__us h4 {
+    font-size: 25px;
+    font-weight: 700;
+  }
   .card__why__us {
     flex-direction: column;
     align-items: center;
@@ -385,6 +399,11 @@ footer {
 
   .w__card {
     width: 100%;
+  }
+
+  .title__testi h1 {
+    font-size: 25px;
+    font-weight: 700;
   }
 
   .main__carou {
@@ -409,6 +428,9 @@ footer {
     font-size: 15px;
   }
 
+  .article-sewa {
+    height: 400px;
+  }
   .article-sewa h1 {
     font-size: 24px;
     text-align: center;
@@ -437,6 +459,11 @@ footer {
   .faq__title {
     flex: 3;
     text-align: center;
+  }
+
+  .faq__title h4 {
+    font-size: 25px;
+    font-weight: 700;
   }
 
   .faq__accord {
